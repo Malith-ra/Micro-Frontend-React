@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
+import Counter from "remote/Counter";
 import "./index.scss";
 
 const App = () => (
@@ -9,6 +9,7 @@ const App = () => (
     <div>Framework: react</div>
     <div>Language: JavaScript</div>
     <div>CSS: Tailwind</div>
+    <Counter />
   </div>
 );
 ReactDOM.render(<App />, document.getElementById("app"));
